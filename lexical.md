@@ -1,5 +1,5 @@
-### Lexical Environment
-- Example 1: 
+### Scope, Scope Chain, and Lexical Environment
+- Example 1:  
 ``` js
 function c() {
   var x = 14;
