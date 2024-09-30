@@ -1,5 +1,5 @@
 ### Lexical Environment
--Example1:
+- Example 1: This code snippet will print 14 because function b uses lexical references to the parent function c where variable x is already defined before the function execution call.
 ```
 function c() {
   var x = 14;
@@ -11,7 +11,7 @@ function c() {
 c();
 
 ```
-_Example2:
+- Example2: This code snippet will print undefined because function b uses lexical references to the parent function c where variable x is already defined before the function execution call
 ```
 function c() {
  
@@ -24,7 +24,7 @@ function c() {
 c();
 
 ```
-_Example3:
+- Example 3: This code snippet will print 14 because function b uses lexical references to the parent function c where variable x is already defined before the function execution call.
 ```
 function c() {
  
