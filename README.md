@@ -1,4 +1,4 @@
 
-- [Lexical Environment](./JS_Basics.md)
+- [Lexical Environment](./lexical.md)
 
 
