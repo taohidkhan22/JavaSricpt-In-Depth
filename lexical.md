@@ -2,7 +2,6 @@
 **```Scope``` is an area where the specific variable can be initialized and can also be fetched.** <br>
 **```Lexical Environment ``` is the local memory along with the lexical reference to its parent.**
 
-
 - Example 1:  
 ``` js
 function c() {
