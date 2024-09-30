@@ -1,4 +1,8 @@
-### Scope, Scope Chain, and Lexical Environment
+## Scope, Scope Chain, and Lexical Environment
+```Scope``` is an area where the specific variable can be initialized and can also be fetched.
+```Lexical Environment `` local memory and the lexical reference to its parent.
+
+
 - Example 1:  
 ``` js
 function c() {
