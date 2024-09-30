@@ -1,4 +1,5 @@
-``function c() {
+### Lexical Environment
+```function c() {
   var x = 14;
   b();
 
@@ -7,4 +8,4 @@
   }
 }
 c();
-``
+```
