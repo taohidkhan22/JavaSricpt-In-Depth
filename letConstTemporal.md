@@ -6,5 +6,16 @@
   not in the typical global memory space, they are stored in the special memory in JVM `script`. That's why `let` and  `const` can't be accessed through window/this object.
 # Error
 ## Reference Error
+<p align="center">
+  <img src='./image/Screenshot (245).png' alt = "Reference Error">
+</p>
+
 ## Type Error 
+<p align="center">
+  <img src='./image/Screenshot (246).png alt = "Type Error">
+</p>
+
 ## Syntax Error
+<p align="center">
+  <img src='./image/Screenshot (244).png' alt = "Syntax Error">
+</p>
