@@ -17,5 +17,7 @@ console.log(b);
 console.log(a);
 console.log(c);
 ```
-Here is the breakdown of the above code:
+*Here is the breakdown of the above code:*
+
+
 <img src="./image/Screenshot (247).png">
