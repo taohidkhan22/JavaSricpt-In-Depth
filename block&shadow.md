@@ -38,14 +38,15 @@ let  b=200;
 console.log(b);
 ```
 **Output 01**
-`
+
+```
    console.log(a):10
    console.log(b):20
    console.log(c):30
    
    console.log(b):200
   
-`
+```
 - Example 02:
 ``` js
 var  a=200;
@@ -68,7 +69,7 @@ console.log(b);
    console.log(b):10
 
 ```
-## ILlegal Shadow
+## Illegal Shadow
 - Example 1:
   
 ``` js
