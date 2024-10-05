@@ -35,6 +35,31 @@ It won't print as you expected. Because javascript won't wait for anybody when w
 of the `setTimeout` along with `var i` reference. In the meantime `'console.log("javascript in-depth");` this line will be executed and the `var i` value will be `11` along with all references of `var i` and
 also `var i` is in the global scope. Therefore, it will print 11 ten times.
 
-To overcome the above issues we can just replace `var` with `let`. Because `let` is a block scope, it will create 10 different `i` references with the 'setTimeout' function. Or, using _closure_.
+To overcome the above issues we can just replace `var` with `let`. Because `let` is a block scope, it will create 10 different `i` references with the `setTimeout` function.
+Or, using _closure_ we can create five different `var i` along with the `setTimeout` function.
+``` js
+function x() {
+  for (var i = 1; i <= 5; i++) {
+    function z(i) {
+      setTimeout(function () {
+        console.log(i);
+      }, i * 1000);
+    }
+    z(i);
+  }
+
+  console.log("javascript in-depth");
+}
+x();
+```
+Output
+```
+javascript in-depth
+1
+2
+3
+4
+5
+```
 
 
