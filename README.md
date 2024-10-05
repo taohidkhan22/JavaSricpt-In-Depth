@@ -5,5 +5,6 @@
 - [Lexical Environment](./lexical.md)
 - [Block Scope and Shadowing](./block&shadow.md)
 - [Closure](./closure.md)
+- [setTimeout + closure](./setTimeout.md)
 
 
