@@ -30,7 +30,7 @@ c();
 ```
 This code snippet will print ```undefined``` because function b uses lexical references to the parent function c and ```variable x``` then was in the memory part that means code execution of ```variable x``` didn't occur. So, it was undefined.
 
--Example 3:
+- Example 3:
 ``` js
 function c() {
  
