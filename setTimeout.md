@@ -18,7 +18,7 @@ Print 30 after 5s.
 ### Problem Statement: Let's assume you have to print 1 after 1 second, 2 after 2 seconds, ...., 10 after 10 seconds using the setTimeout function.
 - Example 01:
 ``` js
-  function x(){
+function x(){
   for(var i=1;i<=10;i++){
     setTimeout(function(){
         console.log(i);
@@ -26,7 +26,7 @@ Print 30 after 5s.
   }
   console.log("javascript in-depth");
 }
-x();
+
 }
 x();
 
