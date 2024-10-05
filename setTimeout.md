@@ -1,6 +1,5 @@
 # setTimeout with Closure...
 
-- Example 01:
 ``` js
 function x(){
     var a=30;
