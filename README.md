@@ -8,3 +8,8 @@
 - [setTimeout + closure](./setTimeout.md)
 
 
+_Ref_: 
+-[Namaste JavaScript](https://www.youtube.com/watch?v=pN6jk0uUrD8&list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP)
+-[MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+-[w3wchool](https://www.w3schools.com/js/default.asp)
+
