@@ -4,6 +4,6 @@
 - [Temporal Dead Zone & Error](./letConstTemporal.md)
 - [Lexical Environment](./lexical.md)
 - [Block Scope and Shadowing](./block&shadow.md)
-
+- [Block Scope and Shadowing](./closure.md)
 
 
