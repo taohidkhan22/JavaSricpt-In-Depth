@@ -59,6 +59,8 @@ x();
 ```
 39
 ```
+#### You can check the Example 02 debugger breakdown.
+<img src="./image/Screenshot (249).png">
 
 
 
