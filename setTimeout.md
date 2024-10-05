@@ -18,7 +18,7 @@ Print 30 after 5s.
 
 ``` js
 function x(){
-  for(var i=1;i<=10;i++){
+  for(var i=1;i<=5;i++){
     setTimeout(function(){
         console.log(i);
     },i*1000);
@@ -30,10 +30,18 @@ function x(){
 x();
 
 ```
-- Output <br>
+- Output
+```
+javascript in-depth
+6
+6
+6
+6
+6
+```
 It won't print as you expected. Because javascript won't wait for anybody when we invoke the function `x()` it goes into the loop but there is a `setTimeout` function so there will be five copies
-of the `setTimeout` along with `var i` reference. In the meantime `'console.log("javascript in-depth");` this line will be executed and the `var i` value will be `11` along with all references of `var i` and
-also `var i` is in the global scope. Therefore, it will print 11 ten times.
+of the `setTimeout` along with `var i` reference. In the meantime `'console.log("javascript in-depth");` this line will be executed and the `var i` value will be `6` along with all references of `var i` and
+also `var i` is in the global scope. Therefore, it will print 6 five times.
 
 To overcome the above issues we can just replace `var` with `let`. Because `let` is a block scope, it will create 10 different `i` references with the `setTimeout` function.
 Or, using _closure_ we can create five different `var i` along with the `setTimeout` function.
@@ -52,7 +60,7 @@ function x() {
 }
 x();
 ```
-Output
+- Output
 ```
 javascript in-depth
 1
