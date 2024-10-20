@@ -2,8 +2,8 @@
 
 ## Function statement
 ```js
+
 a();
-c();
 function a(){
     console.log("funciton a");
 }
@@ -11,13 +11,14 @@ function a(){
 ```
 ## Function Expression
 ```js
+c();
 var c= function (){
     console.log("function `C`");
     return x;
 }
-c();
+
 ```
-_{The main difference between `Function Statement` and `Function Expression` the hoisting problem is when `function c` is invoked it is stored as value `undefined`}_
+_The main difference between `Function Statement` and `Function Expression` is the hoisting problem. That is when `function c` is invoked it is stored as value `undefined` and as for `functionn a` in the Function Statement that was stored as function definition so there would be no hoisting issue._
 
 ## Named `Function Expression`
 ```js
