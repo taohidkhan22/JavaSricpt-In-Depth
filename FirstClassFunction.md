@@ -1,6 +1,6 @@
 # First Class Function, Function Statement, Function Expression
 
-## Function statement{hoisting problem because when c invoke it stored as value undefined}
+## Function statement
 ```js
 a();
 c();
@@ -8,14 +8,16 @@ function a(){
     console.log("funciton a");
 }
 
-
-//Function Expression
+```
+## Function Expression
+```js
 var c= function (){
     console.log("function `C`");
     return x;
 }
+c();
 ```
-
+_{The main difference between `Function Statement` and `Function Expression` the hoisting problem is when `function c` is invoked it is stored as value `undefined`}_
 
 ## Named `Function Expression`
 ```js
@@ -33,10 +35,11 @@ let s= function xxx(param){
     return xxx;
    
 }
-```
 
 
 const p=s;
 
 p(d);
 console.log(p);
+```
+
