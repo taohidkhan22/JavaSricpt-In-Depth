@@ -44,3 +44,12 @@ p(d);
 console.log(p);
 ```
 
+## Anonymous Function
+A function without a name is an anonymous function.
+- example:
+  ```
+  function(){
+     // statement
+  }
+  ```
+
