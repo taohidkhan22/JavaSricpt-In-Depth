@@ -1,5 +1,22 @@
 # First Class Function, Function Statement, Function Expression
 
+## First Class Function
+A programming language is said to have First-class functions when functions in that language are treated like any other variable. For example, in such a language, a function can be passed as an argument to other functions, can be returned by another function and can be assigned as a value to a variable.
+```js
+let s= function xxx(param){
+    console.log('First class function');
+    console.log(param);
+    return xxx;
+   
+}
+
+
+const p=s;
+
+p(d);
+console.log(p);
+```
+
 ## Function statement
 ```js
 
@@ -28,21 +45,7 @@ var d= function abc(){
 
 d();
 ```
-## First class Function
-```js
-let s= function xxx(param){
-    console.log('First class function');
-    console.log(param);
-    return xxx;
-   
-}
 
-
-const p=s;
-
-p(d);
-console.log(p);
-```
 
 ## Anonymous Function
 A function without a name is an anonymous function.
